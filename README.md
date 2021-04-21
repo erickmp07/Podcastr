@@ -19,7 +19,7 @@ This project was developed with the following technologies:
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
 
-Also, this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Project
 
@@ -48,7 +48,7 @@ yarn
 
 To run the application in the develop mode:
 ```bash
-yarn start
+yarn run
 ```
 
 THe application can be accessed at [`localhost:3000`](http://localhost:3000).
@@ -59,4 +59,4 @@ Licensed under [MIT](LICENSE) license.
 
 # Further information
 
-To further information about the React, see the [React auto-generated README](REACT-README.md).
+To further information about the React and Next.js, see the [React auto-generated README](REACT-README.md).
