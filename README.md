@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-    <img alt="Podcastr" title="Podcastr" src="https://img.shields.io/github/license/erickmp07/Podcastr">
+    <img alt="Podcastr" title="Podcastr" src="https://img.shields.io/github/license/erickmp07/podcastr">
 </p>
 
 ## Technologies
