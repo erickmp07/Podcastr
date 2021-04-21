@@ -20,6 +20,7 @@ This project was developed with the following technologies:
 - [Next.js](https://nextjs.org/)
 - [Typescript](https://www.typescriptlang.org)
 - [Sass](https://sass-lang.com/)
+- [date-fns](https://date-fns.org/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
