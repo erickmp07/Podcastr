@@ -51,7 +51,7 @@ To run the application in the develop mode:
 yarn start
 ```
 
-THe application can be accessed at [`localhost:3333`](http://localhost:3333).
+THe application can be accessed at [`localhost:3000`](http://localhost:3000).
 
 # License
 
