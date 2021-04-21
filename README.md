@@ -48,7 +48,7 @@ yarn
 
 To run the application in the develop mode:
 ```bash
-yarn run
+yarn dev
 ```
 
 THe application can be accessed at [`localhost:3000`](http://localhost:3000).
