@@ -27,7 +27,7 @@ Podcastr is a web applicationn where you can listen to Podcastr podcasts.
 
 Stay on top of the latest releases and listen to the podcasts on the site.
 
-Here are some features used by React in this project: static website generation, Context API and working with native HTML elements (audio tag).
+Here are some features used by React in this project: Server-side Rendering (SSR), Static Site Generation (SSG), Context API and working with native HTML elements (audio tag).
 
 ## How to run
 
