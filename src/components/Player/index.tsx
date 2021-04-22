@@ -2,6 +2,8 @@ import styles from "./styles.module.scss";
 
 export function Player() {
     return (
-        <div></div>
+        <div className={styles.playerContainer}>
+
+        </div>
     );
 }
