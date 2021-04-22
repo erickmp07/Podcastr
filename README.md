@@ -46,6 +46,10 @@ git clone https://github.com/erickmp07/podcastr.git
 ```bash
 yarn
 ```
+- To start the server:
+```bash
+yarn server
+```
 
 <br>
 
@@ -54,7 +58,17 @@ To run the application in the develop mode:
 yarn dev
 ```
 
-THe application can be accessed at [`localhost:3000`](http://localhost:3000).
+To build the application as the production mode:
+```bash
+yarn build
+```
+
+To run the application in the production mode:
+```bash
+yarn start
+```
+
+The application can be accessed at [`localhost:3000`](http://localhost:3000).
 
 # License
 
