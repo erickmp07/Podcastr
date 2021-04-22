@@ -18,6 +18,9 @@ This project was developed with the following technologies:
 
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org)
+- [Sass](https://sass-lang.com/)
+- [date-fns](https://date-fns.org/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -43,15 +46,29 @@ git clone https://github.com/erickmp07/podcastr.git
 ```bash
 yarn
 ```
+- To start the server:
+```bash
+yarn server
+```
 
 <br>
 
 To run the application in the develop mode:
 ```bash
-yarn run
+yarn dev
 ```
 
-THe application can be accessed at [`localhost:3000`](http://localhost:3000).
+To build the application as the production mode:
+```bash
+yarn build
+```
+
+To run the application in the production mode:
+```bash
+yarn start
+```
+
+The application can be accessed at [`localhost:3000`](http://localhost:3000).
 
 # License
 
