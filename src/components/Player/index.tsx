@@ -28,11 +28,8 @@ export function Player() {
                     <button type="button">
                         <img src="/play-previous.svg" alt="Previous" title="Previous" />
                     </button>
-                    <button type="button">
-                        <img src="/play.svg" alt="Play" title="Play" />
-                    </button>
                     <button type="button" className={styles.playButton}>
-                        <img src="/play-previous.svg" alt="Previous" title="Previous" />
+                        <img src="/play.svg" alt="Play" title="Play" />
                     </button>
                     <button type="button">
                         <img src="/play-next.svg" alt="Next" title="Next" />
