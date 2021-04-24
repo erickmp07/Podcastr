@@ -21,6 +21,7 @@ This project was developed with the following technologies:
 - [Typescript](https://www.typescriptlang.org)
 - [Sass](https://sass-lang.com/)
 - [date-fns](https://date-fns.org/)
+- [Axios](https://axios-http.com/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
