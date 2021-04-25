@@ -12,6 +12,13 @@
     <img alt="Podcastr" title="Podcastr" src="https://img.shields.io/github/license/erickmp07/podcastr">
 </p>
 
+<br>
+
+<img alt="Podcastr Homepage" title="Podcastr Homepage" src="./public/podcastr-homepage.png">
+
+
+<img alt="Podcastr Episode page" title="Podcastr Episode page" src="./public/podcastr-episode-page.png">
+
 ## Technologies
 
 This project was developed with the following technologies:
@@ -31,7 +38,7 @@ Podcastr is a web applicationn where you can listen to Podcastr podcasts.
 
 Stay on top of the latest releases and listen to the podcasts on the site.
 
-Here are some features used by React in this project: Server-side Rendering (SSR), Static Site Generation (SSG), Context API and working with native HTML elements (audio tag).
+Here are some features used by React in this project: Static Site Generation (SSG), dynamic SSG, Context API and working with native HTML elements (audio tag).
 
 ## How to run
 
