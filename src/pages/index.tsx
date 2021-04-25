@@ -15,7 +15,7 @@ type Episode = {
     publishedAt: string;
     duration: number;
     durationAsString: string;
-    url: string
+    url: string;
 };
 
 type HomeProps = {
