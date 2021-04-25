@@ -1,15 +1,28 @@
 import { api } from "../../services/api";
 import { convertDurationToTimeString } from "../../utils/convertDurationToTimeString";
 import { GetStaticProps } from "next";
-import { useRouter } from "next/router";
 import { format, parseISO } from "date-fns";
 import enUS from "date-fns/locale/en-US";
 
-export default function Episode() {
-    const router = useRouter();
+type Episode = {
+    id: string;
+    title: string;
+    thumbnail: string;
+    members: string;
+    publishedAt: string;
+    duration: number;
+    durationAsString: string;
+    description: string;
+    url: string;
+};
 
+type EpisodeProps = {
+    episode: Episode;
+};
+
+export default function Episode({ episode }: EpisodeProps) {
     return (
-        <h1>{router.query.slug}</h1>
+        <h1>{episode.title}</h1>
     );
 }
 
