@@ -1,6 +1,6 @@
 import { api } from "../../services/api";
 import { convertDurationToTimeString } from "../../utils/convertDurationToTimeString";
-import { GetStaticProps } from "next";
+import { GetStaticPaths, GetStaticProps } from "next";
 import { format, parseISO } from "date-fns";
 import enUS from "date-fns/locale/en-US";
 
@@ -26,6 +26,13 @@ export default function Episode({ episode }: EpisodeProps) {
     );
 }
 
+export const getStaticPaths: GetStaticPaths = async () => {
+    return {
+        paths: [],
+        fallback: "blocking"
+    };
+};
+
 export const getStaticProps: GetStaticProps = async (context) => {
     const { slug } = context.params;
     
@@ -50,4 +57,4 @@ export const getStaticProps: GetStaticProps = async (context) => {
         },
         revalidate: 60 * 60 * 24
     };
-}
+};
