@@ -1,5 +1,6 @@
 {
   "name": "podcastr",
+  "description": "A Next.js server-side rendered ReactJS webapp.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
