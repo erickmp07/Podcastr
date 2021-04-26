@@ -16,8 +16,12 @@ function MyApp({ Component, pageProps }) {
         setIsPlaying(true);
     }
 
+    function togglePlay() {
+        setIsPlaying(!isPlaying);
+    }
+
     return (
-        <PlayerContext.Provider value={{ episodes, currentEpisodeIndex, play, isPlaying }}>
+        <PlayerContext.Provider value={{ episodes, currentEpisodeIndex, isPlaying, play, togglePlay }}>
             <div className={styles.wrapper}>
                 <main>
                     <Header />
