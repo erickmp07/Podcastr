@@ -61,7 +61,7 @@ The application can be accessed at [`localhost:3000`](http://localhost:3000).
 
 PRs and stars are always welcome.
 
-To ask a question, please [contact me](erimacedo_92@hotmail.com).
+To ask a question, please [contact me](mailto:erimacedo_92@hotmail.com).
 
 ## License
 
