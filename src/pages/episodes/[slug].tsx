@@ -43,7 +43,7 @@ export default function Episode({ episode }: EpisodeProps) {
                     alt={episode.title}
                     title={episode.title} 
                 />
-                <button type="button">
+                <button type="button" onClick={() => play(episode)}>
                     <img src="/play.svg" alt="Play episode" title="Play episode" />
                 </button>
             </div>
