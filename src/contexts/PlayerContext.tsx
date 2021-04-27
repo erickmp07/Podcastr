@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, ReactNode, useState } from "react";
 
 type Episode = {
     title: string;
@@ -19,12 +19,16 @@ type PlayerContextData = {
 
 export const PlayerContext = createContext({} as PlayerContextData);
 
-export function PlayerContextProvider({ children }) {
+type PlayerContextProviderProps = {
+    children: ReactNode;
+};
+
+export function PlayerContextProvider({ children }: PlayerContextProviderProps) {
     const [episodes, setEpisodes] = useState([]);
     const [currentEpisodeIndex, setCurrentEpisodeIndex] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
 
-    function play(episode) {
+    function play(episode: Episode) {
         setEpisodes([episode]);
         setCurrentEpisodeIndex(0);
         setIsPlaying(true);
@@ -39,7 +43,14 @@ export function PlayerContextProvider({ children }) {
     }
 
     return (
-        <PlayerContext.Provider value={{ episodes, currentEpisodeIndex, isPlaying, play, togglePlay, setPlayingState }}>
+        <PlayerContext.Provider value={{ 
+            episodes, 
+            currentEpisodeIndex, 
+            isPlaying, 
+            play, 
+            togglePlay, 
+            setPlayingState }
+        }>
             {children}
         </PlayerContext.Provider>
     );
