@@ -68,6 +68,7 @@ This project was developed with the following technologies:
 - [Sass](https://sass-lang.com/)
 - [date-fns](https://date-fns.org/)
 - [Axios](https://axios-http.com/)
+- [rc-slider](https://slider-react-component.vercel.app/)
 
 ## Contributing
 
