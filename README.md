@@ -12,6 +12,7 @@ Stay on top of the latest releases and listen to the podcasts on the site.
 
 - [Install](#install)
 - [Usage](#usage)
+- [Technologies](#technologies)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -56,6 +57,17 @@ yarn start
 ```
 
 The application can be accessed at [`localhost:3000`](http://localhost:3000).
+
+## Technologies
+
+This project was developed with the following technologies:
+
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org)
+- [Sass](https://sass-lang.com/)
+- [date-fns](https://date-fns.org/)
+- [Axios](https://axios-http.com/)
 
 ## Contributing
 
