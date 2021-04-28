@@ -85,6 +85,8 @@ export function Player() {
                                     trackStyle={{ backgroundColor: "#04d361" }}
                                     railStyle={{ backgroundColor: "#9f75ff" }}
                                     handleStyle={{ borderColor: "#04d361", borderWidth: 4 }}
+                                    max={episode.duration}
+                                    value={progress}
                                 />
                             ) 
                             : (
