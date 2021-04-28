@@ -4,6 +4,7 @@ import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import { usePlayer } from "../../contexts/PlayerContext";
 import styles from "./styles.module.scss";
+import { convertDurationToTimeString } from "../../utils/convertDurationToTimeString";
 
 export function Player() {
     const audioRef = useRef<HTMLAudioElement>(null);
@@ -81,7 +82,7 @@ export function Player() {
                                 <div className={styles.emptySlider} />
                             ) }
                     </div>
-                    <span>00:00</span>
+                    <span>{convertDurationToTimeString(episode?.duration ?? 0)}</span>
                 </div>
 
                 { episode && (
