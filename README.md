@@ -2,7 +2,7 @@
 
 ![banner](./public/podcastr-homepage.png)
 
-A [Next.js](https://nextjs.org/) server-side rendered [ReactJS](https://reactjs.org/) webapp.
+A [Next.js](https://nextjs.org/) server-side rendered [ReactJS](https://reactjs.org/) webapp and deployed using [Vercel](https://vercel.com/).
 
 Podcastr is a web applicationn where you can listen to Podcastr podcasts.
 
