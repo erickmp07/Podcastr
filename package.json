@@ -1,13 +1,13 @@
 {
   "name": "podcastr",
-  "description": "A Next.js server-side rendered ReactJS webapp.",
+  "description": "A Next.js server-side rendered ReactJS webapp and deployed using Vercel.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "server": "json-server server.json -w -d 750 -p 3333"
+    "server": "json-server db.json -w -d 750 -p 3333"
   },
   "dependencies": {
     "axios": "^0.21.1",
