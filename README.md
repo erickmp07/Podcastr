@@ -18,6 +18,8 @@ Stay on top of the latest releases and listen to the podcasts on the site.
 
 ## Install
 
+### Locally
+
 Prerequisites:
 
 Download and install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://classic.yarnpkg.com/en/docs/install/).
@@ -34,7 +36,20 @@ cd podcastr
 yarn
 ```
 
+### Docker container
+
+Prerequisites:
+
+Download and install [Docker](https://www.docker.com/products/docker-desktop).
+
+- First, pull the image with the command:
+```bash
+docker pull erickmp07/podcastr:latest
+```
+
 ## Usage
+
+### Locally
 
 First, start the server:
 ```bash
@@ -57,6 +72,15 @@ yarn start
 ```
 
 The application can be accessed at [`localhost:3000`](http://localhost:3000).
+
+### Docker container
+
+Run the image with the command:
+```bash
+docker run -p 49160:3000 -d erickmp07/podcastr
+```
+
+The application can be accessed at [`localhost:49160`](http://localhost:49160).
 
 ## Technologies
 
